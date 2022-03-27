@@ -17,7 +17,6 @@ int* greaterElement(int arr[], int n)
     for(int i=0;i<n;i++)ans[i] = arr[i];
     sort(arr,arr+n);
     
-    
     for(int i=0;i<n;i++){
         int idx = upper_bound(arr,arr+n,ans[i])-arr;
         if(idx>= n)ans[i] = -10000000;
