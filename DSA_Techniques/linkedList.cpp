@@ -32,8 +32,7 @@ Node *create(int a[],int n){
     return root;
 }
 
-void display(struct Node *p)
-{
+void display(struct Node *p){
     while(p!=NULL){
     cout<<p->data<<" ";
     p=p->next;
