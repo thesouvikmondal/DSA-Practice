@@ -8,7 +8,6 @@
 using std::vector;
 using std::string;
 using std::max;
-#include <bits/stdc++.h>
 using namespace std;
 class Solution{
     public:
