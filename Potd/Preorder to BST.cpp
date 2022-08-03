@@ -11,18 +11,22 @@ using std::max;
 #include <bits/stdc++.h>
 using namespace std;
 
+
+   typedef struct Node
 {
     int data;
     struct Node *left, *right;
-} 
+} Node;
 
 
+Node* newNode( int data )
 {
     Node* temp = (Node *)malloc( sizeof( Node ) );
     temp->data = data;
     temp->left = temp->right = NULL;
     return temp;
 }
+
 
 
 class Solution{
