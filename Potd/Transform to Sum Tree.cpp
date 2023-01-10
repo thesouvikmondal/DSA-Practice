@@ -10,6 +10,12 @@ using std::vector;
 using std::max;
 using namespace std;
 class Solution {
+      public:
+  struct Node
+{
+    int data;
+    Node* left, * right;
+};
 private:
     inline int backtrack(Node* node) {
         if (!node) {
